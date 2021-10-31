@@ -5,11 +5,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="container App-header">
         <img src={logo} className="App-logo App-react" alt="logo" />
         <img src={logoRust} className="App-logo App-rust" alt="logo" />
       </header>
-      <div className="container">
+      <div className="container App-body">
         <p>
           Welcome to a Create-React-App served by a Rust-Actix web server.
         </p>
