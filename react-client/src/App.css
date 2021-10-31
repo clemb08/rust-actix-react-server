@@ -41,7 +41,7 @@
 .App-link {
   color: #6395a3;
   margin: 10px;
-  transition: .5s linear
+  transition: .5s reverse;
 }
 
 .App-link:hover {
@@ -57,14 +57,5 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-@keyframes App-rust-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
   }
 }
