@@ -4,12 +4,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="container App-header">
-        <img src={logo} className="App-logo App-react" alt="logo" />
-        <img src={logoRust} className="App-logo App-rust" alt="logo" />
+    <div className="App" style={{textAlign: "center", fontFamily: "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif",
+  webkitFontSmoothing: "antialiased",
+  mozOsxFontSmoothing: "grayscale"}}>
+      <header className="container" style={{minHeight: "70vh", flexDirection: "row", justifyContent: "center"}}>"
+        <img src={logo} className="App-logo App-react" alt="logo" style={{animation: "App-logo-spin infinite 20s linear"}}/>
+        <img src={logoRust} className="App-logo App-rust" alt="logo" style={{animation: "App-rust-spin infinite 20s linear"}}/>
       </header>
-      <div className="container App-body">
+      <div className="container" style={{minHeight: "30vh", flexDirection: "column", justifyContent: "start", fontSize: "calc(10px + 2vmin)", color: "white"}}>
         <p>
           Welcome to a Create-React-App served by a Rust-Actix web server.
         </p>
