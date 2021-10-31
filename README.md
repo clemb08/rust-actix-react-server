@@ -1,4 +1,4 @@
-# Rust Actix Serevr rendering a React App
+# Rust Actix Server rendering a React App
 
 An example showing how render a React App with a Rust Actix web server.
 
