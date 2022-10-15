@@ -7,7 +7,7 @@
     "test": "test",
     "start-server": "cd actix-server && cargo watch -x run",
     "build-client": "cd react-client && yarn install && yarn build",
-    "deploy": "cd actix-server && cargo build --release && cd ../ && npm run build-client"
+    "deploy": "cargo build --release && cd ../ && npm run build-client"
   },
   "keywords": [
     "rust",
